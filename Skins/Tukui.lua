@@ -1,6 +1,12 @@
 local _, addon = ...;
 
-if (not _G.C_AddOns.IsAddOnLoaded('Tukui')
+if GetCVar('portal') == 'CN' then
+  AddOnLoadFunction = IsAddOnLoaded
+else
+  AddOnLoadFunction = C_AddOns.IsAddOnLoaded
+end
+
+if (not AddOnLoadFunction('Tukui')
     or not addon.import('Skins/Main').reserveSkin()) then return end
 
 local function skinFrame (frame, config)

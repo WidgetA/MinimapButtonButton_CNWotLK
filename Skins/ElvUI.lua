@@ -1,6 +1,12 @@
 local _, addon = ...;
 
-if (not _G.C_AddOns.IsAddOnLoaded('ElvUI')
+if GetCVar('portal') == 'CN' then
+  AddOnLoadFunction = IsAddOnLoaded
+else
+  AddOnLoadFunction = C_AddOns.IsAddOnLoaded
+end
+
+if (not AddOnLoadFunction('ElvUI')
     or not addon.import('Skins/Main').reserveSkin()) then return end
 
 local function skinFrame (frame, engine)
