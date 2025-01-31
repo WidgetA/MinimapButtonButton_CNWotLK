@@ -1,2 +1,2 @@
-# MinimapButtonButton_CNWotLK-
+# MinimapButtonButton_CNWotLK
 Personal modified version
