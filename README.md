@@ -9,3 +9,6 @@ Start From [MinimapButtonButton 1.20.7](https://github.com/syndenbock/MinimapBut
 ## Change Log
 ### 2025/2/1
 在 `Skins/ElvUI.lua`中，使用了较新的 `C_AddOns.IsAddOnLoaded` 接口，检测为中国大陆服务器时，替换为旧版的 `IsAddOnLoaded`。
+
+### 2025/2/17
+更新至 1.21 版
