@@ -12,3 +12,6 @@ Start From [MinimapButtonButton 1.20.7](https://github.com/syndenbock/MinimapBut
 
 ### 2025/2/17
 更新至 1.21 版
+
+### 2025/3/1
+更新至 1.21.1 版（这版本没有任何版本代码改动，只有版本号的更新）
